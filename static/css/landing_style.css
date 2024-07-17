@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('../assets/1.png') no-repeat center center; 
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 3%;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 100px;
+    margin-right: 20px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+
+    
+}
+.navl:hover{
+    text-decoration: underline;
+    padding-bottom: 4px;
+}
+
+.but{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 24px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 24px 30px;
+    
+    :hover {
+        background-color: #772ce8;
+    }
+
+}
